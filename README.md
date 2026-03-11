@@ -16,7 +16,7 @@ stbl supports Python 3.x on Windows
 
 ---
 
-## stbl (Simple Taskbar Library)
+# stbl (Simple Taskbar Library)
 
 Run the following command to install stbl:
 
