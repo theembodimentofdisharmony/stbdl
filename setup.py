@@ -9,7 +9,7 @@ setup(
         "stbdl": ["*.exe", "*.png"],
     },
     exclude_package_data={
-        "": ["*.rc"],
+        "": [".idea/*", "*.cc", "*.obj", "*.res"],
     },
     author="enstarep",
     author_email="enstarep@rncyk.org",
@@ -20,9 +20,7 @@ setup(
     license="MIT",
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
         "Operating System :: Microsoft :: Windows"
     ],
     python_requires=">=3.0",
-
 )
