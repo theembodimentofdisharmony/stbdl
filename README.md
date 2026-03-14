@@ -13,3 +13,6 @@ stbdl supports Python 3.x on Windows 10+
 
 ## Latest Version Changes:
 1. Fixed the issue of incorrect library names
+
+## Planned
+1. Support for Windows 10 will end in 2028 (subject to specific circumstances).
