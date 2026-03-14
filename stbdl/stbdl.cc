@@ -215,7 +215,7 @@ void Cleanup() {
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
 
-	auto ClassName = L"stblWindow";
+	auto ClassName = L"stbdlWindow";
 
     int argc = 0;
     LPWSTR* argv = CommandLineToArgvW(GetCommandLineW(), &argc);
