@@ -9,7 +9,7 @@ pip install stbdl
 ```
 No dependencies need to be installed.
 
-stbdl supports Python 3.x on Windows 10+
+stbdl supports Python 3.6+ on Windows 10+
 
 ## Latest Version Changes:
 1. Fixed the issue of the platform's insufficiently strict checks
