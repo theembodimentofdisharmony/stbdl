@@ -5,10 +5,12 @@ import os
 import subprocess
 import ctypes
 from ctypes import wintypes
+import sys
 
+__version__ = "0.5.4"
 
-__version__ = "0.5.3"
-
+if not sys.platform.startswith("win"):
+    raise RuntimeError("Unsupported platform")
 
 def window(path: str = None, mode: int = 3):
     """
